@@ -167,6 +167,8 @@ textarea { overflow: auto; /* 1 */ vertical-align: top; /* 2 */ }
 /* line 403, ../styles/_normalize.scss */
 table { border-collapse: collapse; border-spacing: 0; }
 
+@font-face { font-family: 'open-sans-regular'; src: url("../fonts/OpenSans/OpenSans.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
 /* ========================================================================== Base styles - Scaffolding ========================================================================== */
 /* Reset the box-sizing ========================================================================== */
 /* line 9, ../styles/base/_scaffolding.scss */
@@ -176,21 +178,21 @@ table { border-collapse: collapse; border-spacing: 0; }
 html { font-size: 62.5%; min-height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; }
 
 /* line 20, ../styles/base/_scaffolding.scss */
-body { background-color: white; color: black; font-family: sans-serif; font-weight: 400; font-style: normal; font-size: 12px; line-height: 150%; -webkit-overflow-scrolling: touch; text-rendering: optimizeLegibility; }
+body { background-color: white; color: black; font-family: 'open-sans-regular', sans-serif; font-weight: normal; font-style: normal; font-size: 12px; font-size: 1.2rem; line-height: 16px; -webkit-overflow-scrolling: touch; text-rendering: optimizeLegibility; }
 
 /* Links ========================================================================== */
-/* line 36, ../styles/base/_scaffolding.scss */
+/* line 34, ../styles/base/_scaffolding.scss */
 a { color: black; outline: none; text-decoration: none; }
-/* line 46, ../styles/base/_scaffolding.scss */
+/* line 44, ../styles/base/_scaffolding.scss */
 a:focus { outline: none; }
 
-/* line 52, ../styles/base/_scaffolding.scss */
+/* line 50, ../styles/base/_scaffolding.scss */
 .link-underline { text-decoration: underline; }
 /* line 58, ../styles/_mixins.scss */
 .no-touch .link-underline:hover { text-decoration: none; }
 
 /* Images ========================================================================== */
-/* line 59, ../styles/base/_scaffolding.scss */
+/* line 57, ../styles/base/_scaffolding.scss */
 img { max-width: 100%; }
 
 /* Links ========================================================================== */

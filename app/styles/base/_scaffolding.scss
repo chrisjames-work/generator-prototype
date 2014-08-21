@@ -20,11 +20,9 @@ html {
 body {
   background-color: $body-bg;
   color: $text-color;
-  font-family: $font-family-base;
-  font-weight: 400;
-  font-style: normal;
-  font-size: $font-size-base;
-  line-height: $line-height-base;
+  @include open-sans-regular;
+  @include font-size(1.2);
+  line-height: 16px;
   -webkit-overflow-scrolling: touch;
   text-rendering: optimizeLegibility;
 }

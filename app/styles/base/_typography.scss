@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'open-sans-regular';
+    src: url('../fonts/OpenSans/OpenSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin open-sans-regular {
+  font-family: 'open-sans-regular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
