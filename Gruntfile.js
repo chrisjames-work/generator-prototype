@@ -81,7 +81,7 @@ module.exports = function (grunt) {
         },
         files: [
           '<%= config.app %>/*.html', // Core pages
-          '<%= config.app %>/styles/*.css', // Styles
+          '<%= config.app %>/styles/{,*/}*.scss', // Styles
           '<%= config.app %>/scripts/{,*/}*.js', // Global scripts
           '<%= config.app %>/images/{,*/}*.{png,jpg,jpeg,gif}' // Images
         ]
