@@ -1,0 +1,12 @@
+Description:
+  Static site generator for rapid prototype development
+
+Example:
+  yo prototype
+
+  This will create:
+    Gruntfile.js: Configuration for the task runner.
+    bower.json: Front-end packages installed by bower.
+    package.json: Development packages installed by npm.
+
+    app/: Your application files.
